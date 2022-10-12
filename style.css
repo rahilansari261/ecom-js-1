@@ -79,6 +79,7 @@ img {
   background: var(--clr-dark);
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 .header-content {
   grid-column: 2 / -2;
