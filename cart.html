@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shoppix | Online Shopping Website</title>
+  </head>
+  <body>
+    <!--  -->
+
+    <header class="header header-home main-grid">
+      <div class="header-content">
+        <a class="logo" href="index.html"> Shoppix </a>
+        <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+
+        <nav class="nav">
+          <button aria-label="Close navigation" class="close-nav">
+            &times;
+          </button>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link ">products</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">about </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link current">my cart</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="cart-section main-grid">
+      <section class="product-cart cart-grid">
+        <div class="cart-grid-col-2 row-bg"><h3>Product</h3></div>
+        <div class="cart-grid-col-1 row-bg"><h3>Quantity</h3></div>
+        <div class="cart-grid-col-1 row-bg"><h3>Subtotal</h3></div>
+        <div class="cart-grid-col-2 product-info-flex">
+          <img class="product-cart-img" src="img/product-1.jpg" alt="" />
+          <div class="product-cart-info">
+            <p class="">Adidas</p>
+            <p class="">$45</p>
+            <p>Remove</p>
+          </div>
+        </div>
+
+        <p class="cart-grid-col-1">
+          <input class="input-deco" type="number" />
+        </p>
+        <p class="cart-grid-col-1">$45</p>
+
+        <div class="cart-grid-col-2 product-info-flex">
+          <img class="product-cart-img" src="img/product-1.jpg" alt="" />
+          <div class="product-cart-info">
+            <p class="">Adidas</p>
+            <p class="">$45</p>
+            <p>Remove</p>
+          </div>
+        </div>
+
+        <p class="cart-grid-col-1">
+          <input class="input-deco" type="number" />
+        </p>
+        <p class="cart-grid-col-1">$45</p>
+
+        <div class="cart-grid-col-2 product-info-flex">
+          <img class="product-cart-img" src="img/product-1.jpg" alt="" />
+          <div class="product-cart-info">
+            <p class="">Adidas</p>
+            <p class="">$45</p>
+            <p>Remove</p>
+          </div>
+        </div>
+
+        <p class="cart-grid-col-1">
+          <input class="input-deco" type="number" />
+        </p>
+        <p class="cart-grid-col-1">$45</p>
+
+        <div class="sub-total">
+          <div class="sub-total-flex sub-total-row">
+            <p>Subtotal</p>
+            <p>$450</p>
+          </div>
+          <div class="sub-total-flex sub-total-row">
+            <p>Tax</p>
+            <p>$45</p>
+          </div>
+          <div class="sub-total-flex sub-total-row">
+            <p>Total</p>
+            <p>$495</p>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+    <footer class="footer main-grid">
+      <div class="footer-main">
+        <a class="logo" href="index.html"> Shoppix </a>
+        <p class="footer-text">
+          Shoppix | Online Shopping Website <br />
+          Super value deals On all products
+          <br />
+          Save more with coupons & upto 70% off!
+        </p>
+        <p class="footer-fineprint">© Shoppix 2022</p>
+      </div>
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#" class="social-link"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
